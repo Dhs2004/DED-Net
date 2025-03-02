@@ -8,19 +8,17 @@ Low-light image enhancement (LLIE) seeks to restore degradation from noise and l
 
 • We propose DED-Net, a novel framework for low-light image enhancement that utilizes multi-scale features to estimate illumination information and restore image corruption. 
 
-![image-20250302100549187](C:\Users\86156\AppData\Roaming\Typora\typora-user-images\image-20250302100549187.png)
-
 • We design an Image Feature Enhancement (IFE) Module, which extracts richer feature granularity by sampling the original image at different resolutions, guiding the image restoration process through preliminary enhancement. 
 
-![image-20250302100603756](C:\Users\86156\AppData\Roaming\Typora\typora-user-images\image-20250302100603756.png)
+
 
 • We develop an Illumination-Guided Restoration (IGR) Module, which uses illumination representations to model non-local interactions across regions with varying lighting conditions. Additionally, we integrate depthwise separable convolutions, achieving low computational cost while maintaining high restoration quality.
 
-![image-20250302100616610](C:\Users\86156\AppData\Roaming\Typora\typora-user-images\image-20250302100616610.png)
+
 
  • Extensive experiments on benchmark datasets LOLv1 and LOLv2 demonstrate that DED-Net outperforms  existing methods in both efficiency and restoration quality.
 
-![image-20250302100856684](C:\Users\86156\AppData\Roaming\Typora\typora-user-images\image-20250302100856684.png)
+
 
 ## platform
 
